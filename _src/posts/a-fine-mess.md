@@ -15,3 +15,5 @@ Flat HTML? No way, although that's almost what I'm back to now.
 Write my own? I can work with code, but I'm not writing my own anything (yet).
 
 CMS, then I can play with PHP and MySQL on my freshly-purchased hosting plan (via NoMonthlyFees.com)? Yes, that's great.
+
+There was probably some record of my fumblings through deciding on what to use. I think the first pass was Greymatter, or maybe it was the hand-coded option. Just like today, I don't have much of an eye for the design side of it (for myself anyway). I look for function over form in most cases.
