@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: About Me
 templateClass: tmpl-post
 eleventyNavigation:
@@ -16,3 +16,5 @@ Geek, family, beard, and more ways to show who I am. I am a person who enjoys te
 I like bullet points, especially my own.
 
 I like being able to connect - well, just about anything. People, ideas, systems, patterns, all of it.
+
+Being a whole and healthy person takes a __lot__ of work. Maybe I'll get there someday.

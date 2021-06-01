@@ -4,7 +4,7 @@ description: It could've been the alternate name for the site.
 date: 2021-05-27
 tags:
   - yet another
-layout: layouts/post.njk
+layout: layouts/note.njk
 ---
 It was a fine day about 18 years ago when I first decided to register [dropcase.com](http://www.dropcase.com). I couldn't tell you what day it was, only that I know when I have to renew so that was the "official" date.
 
