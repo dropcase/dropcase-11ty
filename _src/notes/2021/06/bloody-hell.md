@@ -6,18 +6,17 @@ tags:
   - status
   - git
   - GitHub
+  - Eleventy
 layout: layouts/note.njk
 ---
-So far I've been learning about how Eleventy works, and I like it. Straightforward, pretty much javascript-driven Static Site Generator (SSG). My workflow to get new pages needs some attention, but there's plenty I have to talk about.
+So far I've been learning about how Eleventy works, and I like it. Straightforward, pretty much javascript-driven Static Site Generator (SSG). My workflow to get new pages needs some attention, but there's plenty I have to talk about. The progress is the story around __getting__ to where I'm writing again, using Eleventy.
 
-Quick intro to [WAIWO] - What Am I Working On, the process I've been using to attempt to keep track of the things I'm interested in. Sometimes I remember and try to look at it to stay on track. Most of the time it's more like "oh yeah shit I should use that again" (ugh). I guess OYSISUTA helps with WAIWO.
+After trying hexo as the SSG for my site, I stalled while trying to figure out how I could use it better. There's a significant gap between the last thing I wrote and today. I wanted to learn something new, and still use an SSG.
 
-High-level list:
-- Outdoor stuff (living in the Northeast US)
-- Indoor stuff
-  - Cards, board games, knitting, crochet
-- Virtual Stuff
-  - Personal Knowledge Management (PKM)
-  - uh, this site?
+Hugo? Maybe but no. Gatsby! Yeah, learn a bit about it, start reading some of the docs. Even make a repo to use with it! Stuck on something getting it set up before I could get anything written (yes, that's my issue). There are several "starting point" entries scattered around my systems. Maybe I'll roll it all into one place. Eventually.
 
-Might come back and link things when I have more added to the site, but for now I'll just leave the list there.
+## What's this? YASSG?
+
+Eleventy. Sounds great, what do I need to do to try it out? Oh, install it, write one markdown file, and serve it? Ok sure! Wait, what if I want to use it to run my site? Blog starter? Nice, I'll clone that and start from there.
+
+__Fin.__
