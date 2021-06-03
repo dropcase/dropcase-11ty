@@ -12,12 +12,12 @@ templateClass: tmpl-note
 
 {{ content | safe }}
 
-{%- set nextPost = collections.notes | getNextCollectionItem(page) %}
-{%- set previousPost = collections.notes | getPreviousCollectionItem(page) %}
-{%- if nextPost or previousPost %}
+{%- set nextNote = collections.notes | getNextCollectionItem(page) %}
+{%- set previousNote = collections.notes | getPreviousCollectionItem(page) %}
+{%- if nextNote or previousNote %}
 <hr>
 <ul>
-  {%- if nextPost %}<li>Next: <a href="{{ nextPost.url | url }}">{{ nextPost.data.title }}</a></li>{% endif %}
-  {%- if previousPost %}<li>Previous: <a href="{{ previousPost.url | url }}">{{ previousPost.data.title }}</a></li>{% endif %}
+  {%- if nextNote %}<li>Next: <a href="{{ nextNote.url | url }}">{{ nextNote.data.title }}</a></li>{% endif %}
+  {%- if previousNote %}<li>Previous: <a href="{{ previousNote.url | url }}">{{ previousNote.data.title }}</a></li>{% endif %}
 </ul>
 {%- endif %}

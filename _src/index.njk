@@ -4,8 +4,8 @@ eleventyNavigation:
   key: Home
   order: 1
 ---
-{% set maxPosts = collections.notes.length | min(3) %}
-<h1>Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}</h1>
+{% set maxNotes = collections.notes.length | min(3) %}
+<h1>Latest {% if maxNotes == 1 %}Note{% else %}{{ maxNotes }} Notes{% endif %}</h1>
 
 {% set noteslist = collections.notes | head(-3) %}
 {% set noteslistCounter = collections.notes | length %}
