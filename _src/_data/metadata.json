@@ -7,7 +7,7 @@
     "subtitle": "Finding myself through yet another format",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://dropcase.com/"
+    "id": "https://dropcase.com/feed/feed.xml"
   },
   "jsonfeed": {
     "path": "/feed/feed.json",
