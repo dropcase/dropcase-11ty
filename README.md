@@ -1,3 +1,12 @@
+# Heavily Customized and Changed Version
+
+By: Dave Lawson
+Last updated: 2021-06-09
+
+I started with the 11ty base blog, in its entirety from the time I first cloned it:
+
+----
+
 # eleventy-base-blog
 
 A starter repository showing how to build a blog with the [Eleventy](https://github.com/11ty/eleventy) static site generator.
