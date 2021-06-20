@@ -3,6 +3,12 @@
 By: Dave Lawson
 Last updated: 2021-06-09
 
+## Changes & Customizations
+
+- Renamed all `post` references to `note` (and changed blog naming)
+- Adding my own theme, based on [hawksworx.com](https://github.com/philhawksworth/hawksworx.com) for some of the layout
+- Added _fonts folder with options for local setup (Noto Sans and Noto Serif. both in .woff and .woff2 formats)
+
 I started with the 11ty base blog, in its entirety from the time I first cloned it:
 
 ----
