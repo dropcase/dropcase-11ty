@@ -34,3 +34,16 @@ tags:
 layout: layouts/note.njk
 ---
 I've been using [[Roam]] since [[January 12th, 2020]] - and if the formatting looks familiar, you might be using Roam as well. It's been a great way for me to write things down, but __also__ connect ideas in ways I haven't before.
+
+---
+title: It's All About the Experience
+description:
+date: 2021-06-22
+tags:
+  -
+layout: layouts/note.njk
+---
+
+Experiences make life longer. Well, new experiences do.
+
+Break out of the norm once in a while and see how you feel. Yes, seems obvious. In most cases, it would be. Depending on what you grew up with, you might've had a different experience.
