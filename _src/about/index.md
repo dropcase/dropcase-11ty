@@ -23,6 +23,13 @@ I like being able to connect - well, just about anything. People, ideas, systems
 
 Being a whole and healthy person takes a __lot__ of work. Maybe I'll get there someday.
 
+# Frequently Asked Questions
+
+**Q**: What? Why would you share that? (you might think)
+**A**: The thing is, one I don't expect that very many (if any at all) end up reading this. Secondly, I don't really care what your judgment is. I wanted to share and anyone who resonates with it will connect with it in their own way.
+
+# The Story
+
 ## The Shorter Version
 
 This is where I explain to you who I am, what I'm about, and some stuff about the way the site runs. I could also give you a (hopefully brief) history of the site to get us to present day.
