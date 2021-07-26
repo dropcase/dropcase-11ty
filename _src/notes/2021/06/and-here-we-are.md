@@ -3,7 +3,9 @@ title: And Here We Are
 description: The first step is acknowledging the habit
 date: 2021-06-19
 tags:
-  -
+  - status
+  - dropcase.com
+  - outer-thoughts
 layout: layouts/note.njk
 ---
 
@@ -18,3 +20,5 @@ I need to make time, amongst the many things I'm interested in, during free time
 ## The Other Problem
 
 Not sure that it's a problem as much as something else to keep an eye out for. Once I make time, I need to make time __for__ this. I've been feeling like it recently, and I think writing is one of those things that finally "clicked" for me.
+
+# The Other Stuff
