@@ -6,7 +6,7 @@ templateClass: tmpl-note
 
 <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
 {%- for tag in tags | filterTagList -%}
-{%- set tagUrl %}/tags/{{ tag | slug }}/{% endset -%}
+{%- set tagUrl %}/tags/{{ tag }}/{% endset -%}
 <a href="{{ tagUrl | url }}" class="note-tag">{{ tag }}</a>
 {%- endfor %}
 

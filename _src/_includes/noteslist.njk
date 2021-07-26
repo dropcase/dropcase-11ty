@@ -4,7 +4,7 @@
     <a href="{{ note.url | url }}" class="notelist-link">{% if note.data.title %}{{ note.data.title }}{% else %}<code>{{ note.url }}</code>{% endif %}</a>
     <time class="notelist-date" datetime="{{ note.date | htmlDateString }}">{{ note.date | readableDate }}</time>
     {% for tag in note.data.tags | filterTagList %}
-      {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
+      {% set tagUrl %}/tags/{{ tag }}/{% endset %}
       <a href="{{ tagUrl | url }}" class="note-tag">{{ tag }}</a>
     {% endfor %}
   </li>
