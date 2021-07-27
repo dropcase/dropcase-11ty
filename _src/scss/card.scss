@@ -1,10 +1,13 @@
 @import '_themes';
 
+/* roboto-condensed-regular - latin */
 @font-face {
-  font-family: Placard;
-  src: url('/fonts/placardmtstd-cond-webfont.woff2') format('woff2'),
-       url('/fonts/placardmtstd-cond-webfont.woff') format('woff');
-  font-display: swap;
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('/_fonts/roboto-condensed-v19-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/_fonts/roboto-condensed-v19-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 html, body {
@@ -43,7 +46,7 @@ ul.nav {
 }
 
 h1 {
-  font-family: Placard, arial, sans-serif;
+  font-family: "Roboto Condensed", arial, sans-serif;
   font-size: 4em;
   line-height: 1;
   text-transform: uppercase;
