@@ -60,6 +60,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("_src/img");
   eleventyConfig.addPassthroughCopy("_src/css");
   eleventyConfig.addPassthroughCopy("_src/_fonts");
+  eleventyConfig.addPassthroughCopy("_src/semantic");
 
 
   // Customize Markdown library and settings:
