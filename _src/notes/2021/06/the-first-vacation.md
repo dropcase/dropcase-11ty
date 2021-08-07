@@ -12,6 +12,6 @@ layout: layouts/note.njk
 
 This year marks the first time that my family has been on a vacation that was fully planned and paid for without anyone else.
 
-See the [FAQ](about/#Frequently%20Asked%20Questions)
+See the [FAQ](/about/#frequently-asked-questions)
 
 So onwards to the vacation. My wife is an amazing researcher and planner, which are amazing skills that I have just one of (hint: it's researching). She found an AirBNB listing up north of Portland, ME by about fourish hours (a bit under three and a half from where we are). Months previous to now, she started the booking and getting as much information together as possible
