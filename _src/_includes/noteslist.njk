@@ -1,12 +1,19 @@
-<ol reversed class="notelist" style="counter-reset: start-from {{ (noteslistCounter or noteslist.length) + 1 }}">
+<div class="ui segment">
+  <div class="ui large relaxed animated divided list">
 {% for note in noteslist | reverse %}
-  <li class="notelist-item{% if note.url == url %} notelist-item-active{% endif %}">
-    <a href="{{ note.url | url }}" class="notelist-link">{% if note.data.title %}{{ note.data.title }}{% else %}<code>{{ note.url }}</code>{% endif %}</a>
-    <time class="notelist-date" datetime="{{ note.date | htmlDateString }}">{{ note.date | readableDate }}</time>
-    {% for tag in note.data.tags | filterTagList %}
-      {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-      <a href="{{ tagUrl | url }}" class="note-tag">{{ tag }}</a>
-    {% endfor %}
-  </li>
+    <div class="item{% if note.url == url %} active item{% endif %}">
+      <div class="content">
+        <div class="header">
+          <a href="{{ note.url | url }}" class="notelist-link">{% if note.data.title %}{{ note.data.title }}{% else %}<code>{{ note.url }}</code>{% endif %}</a>
+          {% if note.data.description %}: {{note.data.description}}{% else %} {% endif %}
+        </div>
+        <time class="notelist-date" datetime="{{ note.date | htmlDateString }}">{{ note.date | readableDate }}</time>
+        {% for tag in note.data.tags | filterTagList %}
+          {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+          <a href="{{ tagUrl | url }}" class="ui basic button">{{ tag }}</a>
+        {% endfor %}
+      </div>
+    </div>
 {% endfor %}
-</ol>
+  </div>
+</div>

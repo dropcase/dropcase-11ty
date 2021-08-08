@@ -17,11 +17,11 @@
       <h1 class="home"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
 
       {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
-      <ul class="ui nav">
+      <div class="ui horizontal link list">
       {%- for entry in collections.all | eleventyNavigation %}
-        <li class="ui nav-item{% if entry.url == page.url %} nav-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></li>
+        <div class="item{% if entry.url == page.url %} item active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></div>
       {%- endfor %}
-      </ul>
+      </div>
     </header>
 
     <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
