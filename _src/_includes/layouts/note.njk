@@ -2,7 +2,7 @@
 layout: layouts/base.njk
 templateClass: tmpl-note
 ---
-<div class="ui">
+<div class="ui piled segment">
   <h1 class="ui">{{ title }}</h1>
   <div>
     <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
@@ -10,10 +10,10 @@ templateClass: tmpl-note
   <div>
     Tags: {%- for tag in tags | filterTagList -%}
     {%- set tagUrl %}/tags/{{ tag }}/{% endset -%}
-    <a href="{{ tagUrl | url }}" class="ui basic button">{{ tag }}</a>
+    <a href="{{ tagUrl | url }}" class="ui small compact basic button">{{ tag }}</a>
     {%- endfor %}
   </div>
-</div>
+
 
 {{ content | safe }}
 
@@ -26,3 +26,4 @@ templateClass: tmpl-note
   {%- if previousNote %}<li>Previous: <a href="{{ previousNote.url | url }}">{{ previousNote.data.title }}</a></li>{% endif %}
 </ul>
 {%- endif %}
+</div>
