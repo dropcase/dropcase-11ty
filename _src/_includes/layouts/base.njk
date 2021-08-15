@@ -9,28 +9,36 @@
     <link rel="alternate" href="{{ metadata.jsonfeed.path | url }}" type="application/json" title="{{ metadata.title }}">
     <!-- You MUST include jQuery before Fomantic -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="/semantic/dist/semantic.min.css">
-    <script src="/semantic/dist/semantic.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/semantic/dist/semantic.css">
+    <script src="/semantic/dist/semantic.js"></script>
   </head>
-  <body class="ui segment">
-    <header>
-      <h1 class="home"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
+  <body>
+    <div class="ui stackable grid">
+      <div class="left floated five wide column">
+        <header class="ui header">
+          <h1 class="ui header"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
 
-      {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
-      <div class="ui horizontal link list">
-      {%- for entry in collections.all | eleventyNavigation %}
-        <div class="item{% if entry.url == page.url %} item active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></div>
-      {%- endfor %}
+          {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
+          <div class="ui horizontal link list">
+          {%- for entry in collections.all | eleventyNavigation %}
+            <div class="item{% if entry.url == page.url %} item active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></div>
+          {%- endfor %}
+          </div>
+        </header>
       </div>
-    </header>
 
-    <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
+      <div class="right floated eleven wide column">
+        <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
 
-      {{ content | safe }}
-    </main>
+          {{ content | safe }}
+        </main>
+      </div>
 
-    <footer></footer>
+      <footer class="row">
+        &copy; 2003-now dropcase.com
+      </footer>
 
-    <!-- Current page: {{ page.url | url }} -->
+      <!-- Current page: {{ page.url | url }} -->
+    </div>
   </body>
 </html>
