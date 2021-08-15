@@ -4,8 +4,11 @@ eleventyNavigation:
   key: Home
   order: 1
 ---
+<div class="ui segment">
+This is the intro, the place where I tell you what I do or where I am or what I love, but in like 11 words or fewer.
+</div>
 {% set maxNotes = collections.notes.length | min(6) %}
-<h1>$ ls notes | head {{ maxNotes }}</h1>
+<div class="ui medium header">$ cat /notes</div>
 
 {% set noteslist = collections.notes | head(-6) %}
 {% set noteslistCounter = collections.notes | length %}
