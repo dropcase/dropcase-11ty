@@ -33,6 +33,7 @@
     "markdown-it-anchor": "^7.1.0"
   },
   "dependencies": {
+    "@octokit/core": "^3.5.1",
     "fomantic-ui": "^2.8.8",
     "gulp": "^4.0.2",
     "node-sass": "^6.0.1",
