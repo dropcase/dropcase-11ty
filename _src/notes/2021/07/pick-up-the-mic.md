@@ -17,4 +17,6 @@ Once this starts up, I'll eventually post notes with examples of the raw audio a
 
 I'll add the link once the page is ready to share (possibly by removing this line).
 
-Next steps will happen once I have my own room to record in (aka my office).
+Next steps will happen once I have my own room to record in (aka my office). That should happen sometime in the next couple of months.
+
+Update (2021-11-10): this is the weekend that it's __actually__ happening, at least getting my stuff moved into the room and set up. I'll figure out stuff like keeping echo to a minimum and where to place panels to absorb the most sound.
