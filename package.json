@@ -3,10 +3,10 @@
   "version": "0.6",
   "description": "My personal site build, based on the eleventy-base-blog",
   "scripts": {
-    "build": "eleventy",
-    "watch": "eleventy --watch",
-    "serve": "eleventy --serve",
-    "start": "eleventy --serve",
+    "build": "npx eleventy",
+    "watch": "npx eleventy --watch",
+    "serve": "npx eleventy --serve",
+    "start": "npx eleventy --serve",
     "debug": "DEBUG=* eleventy"
   },
   "repository": {
