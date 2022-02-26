@@ -1,13 +1,13 @@
 {
   "name": "dropcase.com-site",
-  "version": "0.8",
+  "version": "0.8.1",
   "description": "My personal site build, based on the eleventy-base-blog",
   "scripts": {
     "build": "eleventy",
     "watch": "eleventy --watch",
     "serve": "eleventy --serve",
     "start": "eleventy --serve",
-    "debug": "DEBUG=* eleventy"
+    "debug": "DEBUG=* npx eleventy"
   },
   "repository": {
     "type": "git",
