@@ -15,4 +15,6 @@ The days are already too short, which makes sense as we're more than halfway bet
 
 Since I last wrote here, I planned out and got my first tattoo - and love it. It was done by [Phuc Tran](https://www.phucskywalker.com/) at [Tsunami Tattoo](https://www.tsunamitattoo.com/) in South Portland, ME.
 
-![DL Tattoo, hexagon with geometric tree line, hills, and mountain]()
+<img src="/img/DL-tattoo-healed.jpg" alt="DL Tattoo, hexagon with geometric tree line, hills, and mountain" width=200 />
+
+Not the best photo, I'll get a better one once it's nicer out. Already planning the next one, or two.
