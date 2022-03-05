@@ -5,12 +5,37 @@ const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginNavigation = require("@11ty/eleventy-navigation");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
+// https://www.11ty.dev/docs/plugins/image/#asynchronous-usage
+const Image = require("@11ty/eleventy-img");
+// https://www.aleksandrhovhannisyan.com/blog/eleventy-image-lazy-loading/
+//const path = require('path');
+
+const imageShortcode = async (
+  relativeSrc,
+  alt,
+  className,
+  widths = [null, 400, 800, 1280],
+  formats = ['jpeg', 'webp'],
+  sizes = '100vw'
+) => {
+  const { dir: imgDir } = path.parse(relativeSrc);
+  const fullSrc = path.join('src', relativeSrc);
+
+  const imageMetadata = await Image(fullSrc, {
+    widths,
+    formats,
+    outputDir: path.join('_site', imgDir),
+    urlPath: imgDir,
+  });
+};
 
 module.exports = function(eleventyConfig) {
   // Add plugins
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
   eleventyConfig.addPlugin(pluginNavigation);
+
+  eleventyConfig.addShortcode('image', imageShortcode);
 
   // https://www.11ty.dev/docs/data-deep-merge/
   eleventyConfig.setDataDeepMerge(true);
@@ -95,6 +120,11 @@ module.exports = function(eleventyConfig) {
     ui: false,
     ghostMode: false
   });
+
+  // Image plugin
+  eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
+  eleventyConfig.addLiquidShortcode("image", imageShortcode);
+  eleventyConfig.addJavaScriptFunction("image", imageShortcode);
 
   return {
     // Control which files Eleventy will process
