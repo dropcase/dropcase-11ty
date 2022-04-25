@@ -7,6 +7,7 @@ tags:
   - alternatives
   - writing
   - note-taking
+  - platform
 layout: layouts/note.njk
 ---
 
@@ -23,11 +24,11 @@ Snark aside, it's true. There are plenty of articles out there discussing the fi
 - Wikis/CMS options
   - corporate/enterprise (Plone, Drupal/Acquia)
   - Wikimedia, and Dokuwiki was a favorite for quite a while
-  - Too many CMS attempts
+  - Too many CMS attempts, from Greymatter to Drupal to Textpattern and others
 - Note-taking apps (OneNote, Evernote, Zoho Notebook, dabbled in Notion)
 - Bullet-driven ([Workflowy](https://workflowy.com/))
 
-The one that's stuck and worked best for me has been [Roam Research](https://roamresearch.com/). I was lucky enough to be grandfathered in while it was being developed, so I have one graph that's "free" and I've been using it daily since January 12th, 2020. I'll break out another note all about my take on Roam and other similar offerings, like Obsidian and Logseq, other than to say that I like all three for different reasons.
+The one that's stuck and worked best for me has been [Roam Research](https://roamresearch.com/). I was lucky enough to be grandfathered in while it was being developed, so I have one graph that's "free" and I've been using it daily since January 12th, 2020. I'll break out another note all about my take on Roam and other similar offerings, like [Obsidian](https://obsidian.md/) and [Logseq](https://logseq.com/), other than to say that I like all three for different reasons.
 
 It's very nice to have a platform that I can use as my second brain, and that I have snapshots of (hourly at the moment, nice feature they added). It's helped take some of the load off of my mind, and combined with therapy has made such a huge difference in my mental state.
 
