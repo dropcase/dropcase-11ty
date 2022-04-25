@@ -1,22 +1,11 @@
-
-// draft ideas for notes
-// date is when added, then checked in and deleted from here when "published"
-// front matter template:
 ---
-title:
-description:
-date: 2022-01-22
-tags:
-  -
-layout: layouts/note.njk
----
-
----
-title:
-description:
+title: Translating from My Head
+description: It's not clear a lot of the time
 date: 2022-04-10
 tags:
-  -
+  - GitHub
+  - writing
+  - PKM
 layout: layouts/note.njk
 ---
 
@@ -33,40 +22,3 @@ Current setup (and the last couple of iterations) have been SSGs. It's great bec
 Maybe I'll look at publishing using [Obsidian](https://obsidian.md/) instead. It would tie into the setup I'm used to (including backlinks and Markdown formatting), and is almost what I'm using to write on a daily basis anyway.
 
 The irony? I wrote this note out in full in less than fifteen minutes. That's gotta be a personal record for writing an entry.
-
----
-title: New Habits, Who Dis?
-description: Sometimes progress isn't forward.
-date: 2021-05-31
-tags:
-  - books
-layout: layouts/note.njk
----
-I've been reading Atomic Habits, by James Clear.
-
-Thoughts?
-
-Takeaways?
-
----
-title: Roam Wasn't Built in a Virtual Day
-description: Write that down. And that too.
-date: 2021-05-31
-tags:
-  -
-layout: layouts/note.njk
----
-I've been using [[Roam]] since [[January 12th, 2020]] - and if the formatting looks familiar, you might be using Roam as well. It's been a great way for me to write things down, but __also__ connect ideas in ways I haven't before.
-
----
-title: It's All About the Experience
-description:
-date: 2021-06-22
-tags:
-  -
-layout: layouts/note.njk
----
-
-Experiences make life longer. Well, new experiences do.
-
-Break out of the norm once in a while and see how you feel. Yes, seems obvious. In most cases, it would be. Depending on what you grew up with, you might've had a different experience.
